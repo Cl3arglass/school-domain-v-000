@@ -17,6 +17,11 @@ def grade(num)
   @roster[num]
 end
 
+def sort
+  @roster.values.sort
+  @roster
+end
+
 end
 
 # attr_reader :roster, :add_student
