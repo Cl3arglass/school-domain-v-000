@@ -7,10 +7,14 @@ def initialize(name)
   @roster = {}
 end
 
-def add_student (name, grade)
+def add_student(name, grade)
 
   @roster[grade] ||= []
   @roster[grade] << name
+end
+
+def grade(num)
+  @roster[grade]
 end
 
 end
